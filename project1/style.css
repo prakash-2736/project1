@@ -1,0 +1,37 @@
+#myLable{
+    text-align: center;
+    font-size: 10em;
+    display: block;
+    font-family: Helvetica, sans-serif;
+}
+#btn-con{
+    text-align: center;
+}
+.buttons{
+    background-color: rgb(91, 158, 235);
+    border-radius: 7px;
+    margin: 5px;
+    font-size: 1.6rem;
+    color: white;
+    transition: background-color 0.1s;
+    padding: 10px 20px;
+
+}
+.buttons:hover{
+background-color:rgb(15, 90, 240) ;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.inside{
+    height: 50vh;
+    width: 100vw;
+}
+body{
+    background: linear-gradient(to left,rgb(237, 139, 139),rgb(170, 231, 92));
+}
